@@ -1,0 +1,26 @@
+{
+    "enumTypes": [],
+    "structTypes": [],
+    "traitTypes": [{
+        "superTypes": ["Asset"],
+        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.TraitType",
+        "typeName": "PublicData",
+        "typeDescription": null,
+        "attributeDefinitions": []
+    }, {
+        "superTypes": ["Asset"],
+        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.TraitType",
+        "typeName": "Retainable",
+        "typeDescription": null,
+        "attributeDefinitions": [{
+            "name": "retentionPeriod",
+            "dataTypeName": "int",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        }]
+    }],
+    "classTypes": []
+}
