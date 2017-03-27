@@ -1,0 +1,21 @@
+{
+    "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+    "id": {
+        "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        "version": 0,
+        "typeName": "ResearchPaperRecommendationResults"
+    },
+    "typeName": "ResearchPaperRecommendationResults",
+    "values": {
+    "recommendationsResultsetID" : 4995149,
+    "researchArea" : "GeoThermal",
+    "createTime" : "2017-03-25T21:00:12.000Z",
+    "hdfsDestination" : "hdfs:\/\/xena.hdp.com:8020\/edm\/data\/prod\/recommendations",
+    "name": "RecommendationsGeoThermal-4995149",
+    "qualifiedName":"ResearchPaperRecommendationResults.4995149-GeoThermal",
+    "description":"GeoThermal Recommendations Mar 2017",
+    "owner":"EDM_RANDD"
+     },
+    "traitNames": [],
+    "traits": {}
+}

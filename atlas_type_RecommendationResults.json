@@ -1,0 +1,45 @@
+{
+    "enumTypes": [],
+    "structTypes": [],
+    "traitTypes": [],
+    "classTypes": [{
+        "superTypes": ["DataSet"],
+        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
+        "typeName": "ResearchPaperRecommendationResults",
+        "typeDescription": null,
+        "attributeDefinitions": [{
+            "name": "recommendationsResultsetID",
+            "dataTypeName": "int",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        },{
+            "name": "researchArea",
+            "dataTypeName": "string",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        },{
+            "name": "createTime",
+            "dataTypeName": "date",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        },
+        {
+            "name": "hdfsDestination",
+            "dataTypeName": "string",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        }]
+    }]
+}

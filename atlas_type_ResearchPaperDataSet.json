@@ -1,0 +1,38 @@
+{
+    "enumTypes": [],
+    "structTypes": [],
+    "traitTypes": [],
+    "classTypes": [{
+        "superTypes": ["DataSet"],
+        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
+        "typeName": "ResearchPaperAccessDataset",
+        "typeDescription": null,
+        "attributeDefinitions": [{
+            "name": "resourceSetID",
+            "dataTypeName": "int",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        },
+        {
+            "name": "researchPaperGroupName",
+            "dataTypeName": "string",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        },
+        {
+            "name": "createTime",
+            "dataTypeName": "date",
+            "multiplicity": "required",
+            "isComposite": false,
+            "isUnique": false,
+            "isIndexable": true,
+            "reverseAttributeName": null
+        }]
+    }]
+}
